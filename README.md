@@ -1,11 +1,11 @@
-# aiyo-logger
+# aiyo-logger [![Build Status](https://travis-ci.org/rajikaimal/aiyo-logger.svg?branch=master)](https://travis-ci.org/rajikaimal/aiyo-logger)
 
 Log `Shaa !!!` and `Aiyo !!!` in Node applications
 
 ## Install
 
 ```
-npm install --save aiyo-logger
+npm install --save-dev aiyo-logger
 ```
 
 ## Usage
