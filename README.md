@@ -1,38 +1,50 @@
-# npm-checker [![Build Status](https://travis-ci.org/rajikaimal/npm-checker.svg?branch=master)](https://travis-ci.org/rajikaimal/npm-checker)
+# aiyo-logger
 
-Check package exists on npmjs.com
+Log `Shaa !!!` and `Aiyo !!!` in Node applications
 
 ## Install
 
 ```
-npm install --save npm-checker
+npm install --save aiyo-logger
 ```
 
 ## Usage
 
 ```js
-const npmChecker = require('npm-checker');
+var logger = require('aiyo-logger');
 
-npmChecker('http-fetcher')
+someAysncFunc()
 	.then(res => {
-		console.log(res);
+		//when you are happy log Shaa !!!
+		logger.shaa();
 	})
 	.catch(err => {
-		console.log(err);
+	  //when something goes wrong log Aiyo !!!
+		logger.aiyo();
 	});
 ```
 
 ## API
 
-### npmChecker(packageName)
+### logger.shaa(['text'])
 
-Returns a promise
+Logs Shaa !!!
 
-#### packageName
+#### text
 
 Type: `string`
 
-Package name for searching
+Optional text to be logged
+
+### logger.aiyo(['text'])
+
+Logs Aiyo !!!
+
+#### text
+
+Type: `string`
+
+Optional text to be logged
 
 ## License
 
