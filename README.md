@@ -13,7 +13,7 @@ npm install --save-dev aiyo-logger
 ```js
 var logger = require('aiyo-logger');
 
-someAysncFunc()
+someAsyncFunc()
 	.then(res => {
 		//when you are happy log Shaa !!!
 		logger.shaa();

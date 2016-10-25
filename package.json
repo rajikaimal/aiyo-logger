@@ -1,6 +1,6 @@
 {
   "name": "aiyo-logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Goodness of Sri Lankan term `Aiyo` in Node applications",
   "main": "index.js",
   "dependencies": {
