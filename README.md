@@ -1,4 +1,4 @@
-# aiyo-logger [![Build Status](https://travis-ci.org/rajikaimal/aiyo-logger.svg?branch=master)](https://travis-ci.org/rajikaimal/aiyo-logger)
+# aiyo-logger [![Build Status](https://travis-ci.org/rajikaimal/aiyo-logger.svg?branch=master)](https://travis-ci.org/rajikaimal/aiyo-logger) [![Greenkeeper badge](https://badges.greenkeeper.io/rajikaimal/aiyo-logger.svg)](https://greenkeeper.io/)
 
 Log `Shaa !!!` and `Aiyo !!!` in Node applications
 
